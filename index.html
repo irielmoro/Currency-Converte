@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter by Iriel Moro</title>
+    <link rel="icon" href="coin-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <h1>Currency  Converter</h1>
+    
+    <div class="container">
+        <div class="exchange-container">
+            <h3>Select currency </h3>
+
+            <div class="currency-selections">
+                <select id="currency">
+                    <option value="USD" selected>United States Dollar</option>
+                    <option value="ARS" >Argentine Peso</option>
+                    <option value="BRL" >Brazilian Real</option>
+                    <option value="AUD" >Australian Dollar</option>
+                    <option value="BOB" >Bolivian Boliviano</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                    <option value="CLP" >Chilean Peso</option>
+                    <option value="CNY" >Chinese Renminbi</option>
+                    <option value="EUR" >Euro</option>
+                    <option value="JPY" >Japanese Yen</option>
+                    <option value="MXN" >Mexican Peso</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                </select>
+    
+                <input type="number"
+                id="currency-value"
+                value="1">
+    
+            </div>
+    
+            <div class="change-currency-container">
+                <button class="change-btn" id="change-currency">
+                    Swap 
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrows-down-up" width="13" height="13" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                        <path d="M17 3l0 18"></path>
+                        <path d="M10 18l-3 3l-3 -3"></path>
+                        <path d="M7 21l0 -18"></path>
+                        <path d="M20 6l-3 -3l-3 3"></path>
+                     </svg>
+                </button>
+    
+                <div class="change-info" id="change-info"></div>
+            </div>
+    
+            <div class="exchange-selections">
+                <select id="exchange">
+                    <option value="USD" >United States Dollar</option>
+                    <option value="ARS" >Argentine Peso</option>
+                    <option value="BRL" >Brazilian Real</option>
+                    <option value="AUD" >Australian Dollar</option>
+                    <option value="BOB" >Bolivian Boliviano</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                    <option value="CLP" >Chilean Peso</option>
+                    <option value="CNY" >Chinese Renminbi</option>
+                    <option value="EUR" selected>Euro</option>
+                    <option value="JPY" >Japanese Yen</option>
+                    <option value="MXN" >Mexican Peso</option>
+                    <option value="CAD" >Canadian Dollar</option>
+                </select>
+    
+                <input type="number"
+                id="exchange-value">
+    
+            </div>
+
+        </div>
+
+        <img src="Moneyverse Business Balance.png" alt="" srcset="">
+        <!-- <div class="img-container">
+        </div> -->
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
